@@ -1,0 +1,37 @@
+APP_ENV=local
+APP_DEBUG=true
+APP_KEY=B48hsM0pc5GXJ1OzmQ0d7MKEKqriYyYm
+
+DB_HOST=127.0.0.1
+DB_DATABASE=test_dadse
+DB_USERNAME=root
+DB_PASSWORD=
+
+CACHE_DRIVER=file
+SESSION_DRIVER=file
+QUEUE_DRIVER=sync
+
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=042338d8def847
+MAIL_PASSWORD=f0232ff25037af
+MAIL_ENCRYPTION=tls
+
+SSO_URL= https://sso.mds.gob.ar/
+
+API_MDS_KEY = e27d1b14440f94063083b7e94c7ea63759da40ec36afb21f58526d75f5afa575
+
+API_MDS_URL_INSOL=https://api.mds.gob.ar/api/v2/test-insol/_proc/
+
+API_MDS_URL=https://api.mds.gob.ar/api/v2
+
+API_MDS_INSOL_SERVICE=insol-test/v1
+API_MDS_UNIDB_SERVICE=unidb
+
+SEDE_ID = 1
+CASOS_ORIGEN_ID = 1
+
+MAIL_AYUDA_DIRECTA 	     = dadse@desarrollosocial.com.ar
+MAIL_ALTO_COSTO    		 = dadse@desarrollosocial.com.ar
+MAIL_SECTOR_PRESUPUESTOS = dadse_presupuestos@desarrollosocial.com.ar
